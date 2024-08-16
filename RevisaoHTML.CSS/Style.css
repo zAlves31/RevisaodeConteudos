@@ -11,6 +11,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    
 }
 
 .Inicio{
@@ -20,7 +21,7 @@ body {
   
 
 .logo{
-    margin-right: 48%;
+    margin-right: 45%;
 }
 
 .menu-bar {
@@ -74,6 +75,39 @@ body {
 .menu-bar ul li button:hover {
     background-color: white; 
     color: #1E52B4; 
+}
+
+.search-box {
+    width: 60%;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+.Inicio .search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 20%;
+}
+
+.Inicio .search-box input, 
+.Inicio .search-box button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.Inicio .search-box button {
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
 }
 
 /* Catalogo */
@@ -171,6 +205,7 @@ body {
     background:#FFDF00;
     text-align: center;
     height: 50px;
+    width: 100%;
 }
 
 .logoFooter{
